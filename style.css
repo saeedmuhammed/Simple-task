@@ -1,0 +1,45 @@
+form  {
+    text-align: center;
+}
+form input {
+    display: block;
+    margin: 20px auto;
+    padding-left: 8px;
+    background-color: #eee;
+    width: 175px;
+    height: 22px;
+    border: none;
+}
+form input:last-of-type {
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+}
+form input:last-of-type:hover {
+    cursor: pointer ;
+}
+
+form select {
+    margin: 20px auto;
+    padding-left: 8px;
+    background-color: #eee;
+    width: 175px;
+    height: 22px;
+}
+form div,section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    row-gap: 30px;
+}
+form div div,section {
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    height: 35px;
+    background-color: orangered;
+    color: white;
+
+}
